@@ -1,0 +1,177 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Velocity Settle Core · SparkPayRail
+// Suite: Cross-Chain Bridges & Interoperability
+
+module VelocitySettleCoreSparkPayRail {
+
+  embed gates 3..=6 {
+    context: "SparkPayRail pack — velocity_settle cross-chain on CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_spark_pay_rail_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant spark_pay_rail_041: spark_pay_rail_041_bound == true;
+  invariant spark_pay_rail_042: spark_pay_rail_042_bound == true;
+  invariant spark_pay_rail_043: spark_pay_rail_043_bound == true;
+  invariant spark_pay_rail_044: spark_pay_rail_044_bound == true;
+  invariant spark_pay_rail_045: spark_pay_rail_045_bound == true;
+  invariant spark_pay_rail_046: spark_pay_rail_046_bound == true;
+  invariant spark_pay_rail_047: spark_pay_rail_047_bound == true;
+  invariant spark_pay_rail_048: spark_pay_rail_048_bound == true;
+  invariant spark_pay_rail_049: spark_pay_rail_049_bound == true;
+  invariant spark_pay_rail_050: spark_pay_rail_050_bound == true;
+  invariant spark_pay_rail_051: spark_pay_rail_051_bound == true;
+  invariant spark_pay_rail_052: spark_pay_rail_052_bound == true;
+  invariant spark_pay_rail_053: spark_pay_rail_053_bound == true;
+  invariant spark_pay_rail_054: spark_pay_rail_054_bound == true;
+  invariant spark_pay_rail_055: spark_pay_rail_055_bound == true;
+  invariant spark_pay_rail_056: spark_pay_rail_056_bound == true;
+  invariant spark_pay_rail_057: spark_pay_rail_057_bound == true;
+  invariant spark_pay_rail_058: spark_pay_rail_058_bound == true;
+  invariant spark_pay_rail_059: spark_pay_rail_059_bound == true;
+  invariant spark_pay_rail_060: spark_pay_rail_060_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_041(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_041_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_042(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_042_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_043(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_043_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_044(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_044_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_045(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_045_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_046(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_046_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_047(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_047_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_048(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_048_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_049(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_049_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_050(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_050_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_051(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_051_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_052(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_052_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_053(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_053_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_054(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_054_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_055(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_055_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_056(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_056_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_057(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_057_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_058(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_058_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_059(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_059_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_spark_pay_rail_060(payload: Bytes) {
+    require payload != @0;
+    constraint spark_pay_rail_060_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
